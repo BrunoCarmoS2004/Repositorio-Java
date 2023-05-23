@@ -18,20 +18,20 @@ public class Ativadade2 {
         for (i = 0; i < n; i++) {
             System.out.print("Escreva numeros:");
             temp[i] = scanner.nextInt();
+
+            
         }
         for (i = 0; i < n; i++) {
             System.out.println("Seus vetores foram: "+temp[i]);
+            
         }
 
-        for (i = 0; i < n ; i++) {
+        while (temp[1] > temp[i]);{
 
-                temp[i] = total;
-
-                temp[i] = temp[i];
-
-                System.out.println(total+""+temp[i]);
-            }
-
+            temp[i] = temp[1];
+            System.out.println("O vetor de menor valor é"+temp[1]);
+        }
+        
         }
         
 }
