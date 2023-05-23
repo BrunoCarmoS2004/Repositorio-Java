@@ -5,7 +5,7 @@ public class Ativadade2 {
         
         Scanner scanner = new Scanner(System.in);
         int i = 0;
-        int temp[];
+        int temp[]
         int n = 0;
         int total = 0;
 
@@ -25,14 +25,13 @@ public class Ativadade2 {
             System.out.println("Seus vetores foram: "+temp[i]);
             
         }
-
         while (temp[1] > temp[i]);{
 
-            temp[i] = temp[1];
+            temp[1] = temp[i];
             System.out.println("O vetor de menor valor é"+temp[1]);
         }
-        
-        }
+       
+    }
         
 }
 
