@@ -25,11 +25,7 @@ public class Ativadade2 {
             System.out.println("Seus vetores foram: "+temp[i]);
             
         }
-        while (temp[1] > temp[i]);{
-
-            temp[1] = temp[i];
-            System.out.println("O vetor de menor valor é"+temp[1]);
-        }
+        
        
     }
         
