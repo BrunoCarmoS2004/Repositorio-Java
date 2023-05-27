@@ -5,9 +5,9 @@ public class Ativadade2 {
         
         Scanner scanner = new Scanner(System.in);
         int i = 0;
-        int temp[]
+        int temp[];
         int n = 0;
-        int total = 0;
+        
 
 
 
@@ -16,7 +16,7 @@ public class Ativadade2 {
         temp = new int[n];
 
         for (i = 0; i < n; i++) {
-            System.out.print("Escreva numeros:");
+            System.out.print("Escreva o numero "+i+":");
             temp[i] = scanner.nextInt();
 
             
