@@ -6,12 +6,13 @@ public class Trabalho1 {
 
         String enter ="o";
         int resposta =0;
-        
-        int cardapio[];
-
+        String item ="";
+        String comida;
         int n = 0;
+        int p = 0;
 
-        cardapio = new int[n];
+        
+        String[] cardapio = new String[n]; 
 
         while (resposta != 5){
 
@@ -28,8 +29,8 @@ public class Trabalho1 {
             resposta = scanner.nextInt();
             System.out.println("");
             System.out.println("--------------------------------------------------");
-
-            if ( resposta == 1){
+            switch (resposta){
+                case 1:
                 int j = 1; 
                 System.out.println("");
                 System.out.println("Cardápio:");
@@ -39,27 +40,40 @@ public class Trabalho1 {
 
                 System.out.println(cardapio[i]);   
                }
-            System.out.println();
-            System.out.println("--------------------------------------------------");
-            System.out.println();
-            System.out.println("           Pressione <Enter> para voltar          ");
-            System.out.println();
-            System.out.println("--------------------------------------------------");
-            System.out.println("Gostaria de repetir? Sim ou não");
-            enter = scanner.next();
-            
+                System.out.println();
+                System.out.println("--------------------------------------------------");
+                System.out.println();
+                System.out.println("           Pressione <Enter> para voltar          ");
+                System.out.println();
+                System.out.println("--------------------------------------------------");
+                System.out.println("Gostaria de repetir? Sim ou não");
+                enter = scanner.next();
+                break;
+
+             case 3:
+                System.out.println("");
+                System.out.println(" Qual item gostaria de adicionar?");
+                System.out.println("");
+                System.out.print("Resposta: ");
+                comida = scanner.nextLine();
+                cardapio[p] = comida;
+                System.out.println("Gostaria de repetir? Sim ou não");
+                enter = scanner.next();
+                break;
+
+            };
 
             
-            } 
-            }
             
-
             
-
+            
 
 
             
 
+
+
+            
         }
       
         
@@ -67,3 +81,4 @@ public class Trabalho1 {
 
 
     }
+}
