@@ -4,18 +4,15 @@ public class Trabalho1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String enter ="o";
-        int resposta =0;
-        String item ="";
-        String comida;
-        int n = 0;
-        int p = 0;
-
+        String enter = "o";
+        int resposta = 0;
+        int n = 1;
+        int[] cardapio = new int[n];
         
-        String[] cardapio = new String[n]; 
 
-        while (resposta != 5){
-
+        while (resposta != 5) {
+            
+            n = n + 1;
             System.out.println("--------------------------------------------------");
             System.out.println("|          O que você gostaria de fazer?         |");
             System.out.println("--------------------------------------------------");
@@ -29,64 +26,27 @@ public class Trabalho1 {
             resposta = scanner.nextInt();
             System.out.println("");
             System.out.println("--------------------------------------------------");
-            switch (resposta){
+            switch (resposta) {
                 case 1:
-                n= n+1;
-                cardapio = new String[n]; 
-                int j = 1; 
-                System.out.println("");
-                System.out.println("Cardápio:");
-                System.out.println("");
-                
-               for (int i = 0; i < n ; i++) {
+                System.out.println("Cardápio");
+                for (int i = 0; i < cardapio.length; i++) {
+                    System.out.println(cardapio);
+                }
+                System.out.println("Precione qual quer coisa para voltar!");
+                scanner.next();
 
-                System.out.println(cardapio[i]);   
-               }
-                System.out.println();
-                System.out.println("--------------------------------------------------");
-                System.out.println();
-                System.out.println("           Pressione <Enter> para voltar          ");
-                System.out.println();
-                System.out.println("--------------------------------------------------");
-                System.out.println("Gostaria de repetir? Sim ou não");
-                enter = scanner.next();
-                break;
+                case 3:
 
-             case 3:
-             n= n+1;
-             cardapio = new String[n]; 
-             for (int i = 0; i < n ; i++) {
-                 
-             System.out.println("");
-             System.out.println("Qual item gostaria de adicionar?");
-             System.out.println("");
-             System.out.print("Resposta: ");
-             comida = scanner.next();
-             cardapio[p] = comida;
-                 
-               }
+                System.out.println("Digite o numero a ser adicionado: ");
+                int num = scanner.nextInt();
+                cardapio[i] = num;
+                System.out.println("Precione qual quer coisa para voltar!");
+                scanner.next();
+            }
+
              
-             scanner.nextLine();
-             break;
-
-            };
-
-            
-            
-            
-            
 
 
-            
-
-
-
-            
         }
-      
-        
-
-
-
     }
 }
