@@ -31,11 +31,13 @@ public class Trabalho1 {
             System.out.println("--------------------------------------------------");
             switch (resposta){
                 case 1:
+                n= n+1;
+                cardapio = new String[n]; 
                 int j = 1; 
                 System.out.println("");
                 System.out.println("Cardápio:");
                 System.out.println("");
-
+                
                for (int i = 0; i < n ; i++) {
 
                 System.out.println(cardapio[i]);   
@@ -51,15 +53,21 @@ public class Trabalho1 {
                 break;
 
              case 3:
-                System.out.println("");
-                System.out.println(" Qual item gostaria de adicionar?");
-                System.out.println("");
-                System.out.print("Resposta: ");
-                comida = scanner.nextLine();
-                cardapio[p] = comida;
-                System.out.println("Gostaria de repetir? Sim ou não");
-                enter = scanner.next();
-                break;
+             n= n+1;
+             cardapio = new String[n]; 
+             for (int i = 0; i < n ; i++) {
+                 
+             System.out.println("");
+             System.out.println("Qual item gostaria de adicionar?");
+             System.out.println("");
+             System.out.print("Resposta: ");
+             comida = scanner.next();
+             cardapio[p] = comida;
+                 
+               }
+             
+             scanner.nextLine();
+             break;
 
             };
 
