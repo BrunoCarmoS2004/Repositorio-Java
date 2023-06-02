@@ -89,7 +89,7 @@ public class Trabalho1 {
                     }
                     System.out.print("Resposta..:");
                     int resposta2 = scanner.nextInt();
-                    resposta2 = resposta2 - 1;
+                    resposta2 = resposta2 - 1;  
                     System.out.println("");
                     System.out.println("O numero correspondente a esse vetor e " + lista[resposta2]);
                     break;
