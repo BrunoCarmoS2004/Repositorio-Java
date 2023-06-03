@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Atividade7",
+            "request": "launch",
+            "mainClass": "Atividade7",
+            "projectName": "Repositorio-Java_4c6503cc"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
