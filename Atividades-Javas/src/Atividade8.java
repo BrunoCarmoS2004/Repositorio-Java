@@ -20,6 +20,9 @@ public class Atividade8 {
         for (i = n; i > 0; i--) {
             num2[i] = num[i - 1];
             System.out.println(num2);
+
+            
+            
             }
             
         }
