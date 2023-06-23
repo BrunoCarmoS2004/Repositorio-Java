@@ -110,10 +110,7 @@ public class Trabalho1 {
                         System.out.println("Precione qual quer tecla para continuar");
                         enter = scanner.next();
                         break;
-                    }
-                    
-
-                    
+                    }  
             }
 
         }
