@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AtividadeM2",
+            "request": "launch",
+            "mainClass": "Atividades.AtividadeM2",
+            "projectName": "Repositorio-Java_7d10fa92"
+        },
+        {
+            "type": "java",
+            "name": "Launch Atividade10",
+            "request": "launch",
+            "mainClass": "estudojava.Atividade10",
+            "projectName": "Repositorio-Java_7d10fa92"
+        },
+        {
+            "type": "java",
+            "name": "Launch atividadeestudo",
+            "request": "launch",
+            "mainClass": "estudojava.atividadeestudo",
+            "projectName": "Repositorio-Java_7d10fa92"
+        },
+        {
+            "type": "java",
+            "name": "Launch estudo",
+            "request": "launch",
+            "mainClass": "estudojava.estudo",
+            "projectName": "Repositorio-Java_7d10fa92"
+        },
+        {
+            "type": "java",
             "name": "Launch Atividade10",
             "request": "launch",
             "mainClass": "estudojava.Atividade10",
